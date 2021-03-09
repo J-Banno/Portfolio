@@ -195,3 +195,50 @@ body {
 }
 
 /*************** Accueil ***************/
+
+.accueil {
+  background: url(./ressources/accueil.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  height: 100vh;
+  min-height: 900px;
+  width: calc(100% - 300px);
+  position: relative;
+  margin-left: auto;
+}
+
+h1 {
+  font-size: 90px;
+  font-family: "Abri Fatface", sans-serif;
+  margin: 0 60px;
+  padding-top: 210px;
+}
+.txt-animation {
+  font-size: 30px;
+  margin: 10px 0 10px 60px;
+}
+.btn-acc {
+  display: inline-flex;
+  width: 200px;
+  height: 50px;
+  background: #000;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  color: #f1f1f1;
+  margin: 10px 0 0 0;
+  border-radius: 2px;
+  font-size: 18px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.btn-acc1 {
+  margin: 10px 0 0 60px;
+}
+.btn-acc2 {
+  background: transparent;
+  border: 2px solid black;
+  color: black;
+  font-weight: 700;
+}
