@@ -242,3 +242,53 @@ h1 {
   color: black;
   font-weight: 700;
 }
+.medias {
+  display: flex;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+.media {
+  height: 60px;
+
+  border-radius: 50%;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.media1 {
+  width: 60px;
+}
+
+.media2 {
+  background: transparent;
+  border: 2px solid #333;
+  width: 30;
+}
+.icone-media {
+  width: 60px;
+}
+.btn-rond {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  bottom: 20px;
+  left: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 0 0 0 #333;
+  background: #333;
+  animation: pulse 1.3s infinite;
+}
+@keyframes pulse {
+  to {
+    box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.01);
+  }
+}
+.logo-btn-rond-acc {
+  width: 35px;
+}
