@@ -406,3 +406,16 @@ h1 {
     width: 20px;
   }
 }
+
+/* type writer */
+
+@media screen and (max-width: 380px) {
+  .txt-animation {
+    font-size: 13px !important;
+  }
+}
+@media screen and (max-width: 370px) {
+  .txt-animation {
+    font-size: 11px !important;
+  }
+}
