@@ -49,7 +49,7 @@ body {
 }
 
 .blocksMenu span a {
-  color: #8f754f;
+  color: #f1f1f1;
   text-decoration: none;
 }
 
@@ -467,15 +467,21 @@ h1 {
   padding-top: 20px;
 }
 
+.presGauche q {
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
 .presGauche h3 {
   text-align: center;
-  font-size: 25px;
+  font-size: 11px;
   letter-spacing: 2px;
 }
 
 .presGauche hr {
   width: 60px;
   margin: 0 auto 20px auto;
+  font-size: 18px;
 }
 
 .presGauche p {
