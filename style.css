@@ -426,8 +426,8 @@ h1 {
   width: 100%;
   position: relative;
   overflow: hidden;
-  border-top: 1px dashed #19191b;
-  border-bottom: 1px dashed #191919;
+  border-top: 1px dashed #333;
+  border-bottom: 1px dashed #333;
   color: #e7e7e7;
 }
 .titrePres {
@@ -439,7 +439,7 @@ h1 {
 .fondForme {
   background: rgb(143, 117, 79);
   background: linear-gradient(
-    189deg,
+    180deg,
     rgba(36, 33, 28, 1) 20%,
     rgba(149, 149, 149, 1) 46%,
     rgba(41, 41, 41, 1) 80%
@@ -455,7 +455,7 @@ h1 {
   width: 100%;
   justify-content: center;
   align-items: center;
-  margin: 50px 0 70px 0;
+  margin: 50px 0 60px 0;
   flex-shrink: 0;
   padding-left: 300px;
 }
@@ -467,7 +467,7 @@ h1 {
   padding-top: 20px;
 }
 
-.presGauche q {
+.presGauche h3 q {
   text-align: center;
   font-size: 15px;
   letter-spacing: 2px;
@@ -476,12 +476,13 @@ h1 {
   text-align: center;
   font-size: 11px;
   letter-spacing: 2px;
+  padding-left: 80px;
 }
 
 .presGauche hr {
   width: 60px;
-  margin: 0 auto 20px auto;
-  font-size: 18px;
+  margin: 20px auto 40px auto;
+  padding-left: 80px;
 }
 
 .presGauche p {
@@ -506,4 +507,67 @@ h1 {
 .txtListe {
   font-size: 27px;
   display: inline;
+}
+
+/*************** Medias Presentation ***************/
+
+@media screen and (max-width: 1300px) {
+  .containerPresentation {
+    padding-left: 0px;
+  }
+  .titrePres {
+    padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .fondForme {
+    width: 100%;
+    height: 100%;
+    transform: rotate(0) translateY(0) translateX(0);
+  }
+  .titrePres {
+    padding-top: 50px;
+    margin: 0 0 20px 0;
+  }
+  .containerPresentation {
+    flex-direction: column;
+  }
+  .presGauche {
+    width: 80%;
+    flex-shrink: 1;
+    margin-bottom: 10px;
+    padding: 20px 0;
+  }
+  .presGauche h3 {
+    font-size: 10px;
+    letter-spacing: 0px;
+    padding-left: 0;
+  }
+  .presGauche p {
+    font-size: 16px;
+  }
+  .presDroite {
+    width: 80%;
+    flex-shrink: 1;
+  }
+  .listePresentation {
+    padding: 0 0;
+  }
+}
+@media screen and (max-width: 700px) {
+  .containerPresentation {
+    margin-top: 10px;
+    margin-bottom: 70px;
+  }
+  .titrePres {
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  .chiffreStyle {
+    font-size: 30px;
+  }
+  .txtListe {
+    font-size: 17px;
+  }
 }
