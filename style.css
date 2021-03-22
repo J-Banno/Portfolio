@@ -772,3 +772,57 @@ h1 {
 .labelSkill {
   font-size: 24px;
 }
+
+/*************** Medias Compétences ***************/
+
+@media screen and (max-width: 1400px) {
+  .grilleSkill {
+    grid-template: repeat(4, 80px) / repeat(2, 450px);
+  }
+  .barreGrise {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .sectionRange {
+    padding-left: 0;
+  }
+  .titreExp {
+    padding-left: 0;
+  }
+  .grilleSkill {
+    grid-template: repeat(8, 80px) / 600px;
+    padding-left: 0;
+  }
+  .barreGrise {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .grilleSkill {
+    grid-template: repeat(8, 80px) / 400px;
+  }
+  .barreGrise {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sectionRange {
+    padding-bottom: 100px;
+  }
+  .titreExp {
+    font-size: 30px;
+    margin: 50px 0 60px 0;
+  }
+  .labelSkill {
+    font-size: 20px;
+  }
+  .grilleSkill {
+    grid-template: repeat(8, 80px) / 300px;
+    grid-gap: 40px;
+  }
+  .barreGrise {
+    width: 300px;
+  }
+}
