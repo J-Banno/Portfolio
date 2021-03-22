@@ -439,11 +439,10 @@ h1 {
 .fondForme {
   background: rgb(20, 20, 20);
   background: linear-gradient(
-    180deg,
+    130deg,
     rgba(20, 20, 20, 1) 0%,
-    rgba(23, 79, 122, 1) 37%,
-    rgba(96, 177, 240, 1) 49%,
-    rgba(27, 68, 102, 1) 61%
+    rgba(60, 59, 59, 1) 33%,
+    rgba(138, 136, 136, 1) 73%
   );
   width: 2300px;
   height: 1000px;
