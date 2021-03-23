@@ -436,6 +436,9 @@ h1 {
   margin: 50px 0 70px 0;
   padding-left: 300px;
 }
+.bocal {
+  color: white;
+}
 .fondForme {
   background: rgb(20, 20, 20);
   background: linear-gradient(
@@ -696,8 +699,13 @@ h1 {
   flex-direction: column;
   padding-bottom: 200px;
   border-bottom: 1px dashed #333;
-  background: #485563;
-  background-image: linear-gradient(to right, #29323c, #485563);
+  background: rgb(20, 20, 20);
+  background: linear-gradient(
+    130deg,
+    rgba(20, 20, 20, 1) 0%,
+    rgba(60, 59, 59, 1) 33%,
+    rgba(138, 136, 136, 1) 73%
+  );
   color: #f1f1f1;
   position: relative;
   z-index: -1;
