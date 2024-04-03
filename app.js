@@ -35,16 +35,10 @@ typewriter
   .typeString("<strong>Développeur Full-Stack</strong> !")
   .pauseFor(1000)
   .deleteChars(12)
-  .typeString('<span style="color: #7319f0;"> HTML/CSS</span> !')
+  .typeString('<span style="color: #2A93D6;"> ReactJS</span> !')
   .pauseFor(1000)
   .deleteChars(10)
-  .typeString('<span style="color: #f0db19;"> JavaScript</span> !')
-  .pauseFor(1000)
-  .deleteChars(12)
-  .typeString('<span style="color: #1f8fbd;"> React Js</span> !')
-  .pauseFor(1000)
-  .deleteChars(11)
-  .typeString('<span style="color: #4ac22c;"> NodeJS-MongoDB</span> !')
+  .typeString('<span style="color: #333333;"> Symfony</span> !')
   .pauseFor(1000)
   .start();
 

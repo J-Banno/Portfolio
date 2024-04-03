@@ -1,302 +1,322 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
-    <!----- Boutton flottant ----->
-    <div class="btnMenu">
-        <div class="contLign">
-           <div class="lignSolo">
-
-           </div>
-        </div>
+  <!----- Boutton flottant ----->
+  <div class="btnMenu">
+    <div class="contLign">
+      <div class="lignSolo">
+      </div>
     </div>
-    
-    <!----- Barre de navigation ----->
+  </div>
 
-    <nav class="menu">
+  <!----- Barre de navigation ----->
 
-        <!-- Photo de profil -->
-        <div class="blocksMenu">
-            <div class="portrait">
-                <img src="./ressources/profil.png" alt="portrait.img">
-            </div>
-        </div>
-        <!-- Accueil -->
-        <div class="blocksMenu">
-            <span class="itemMenu">
-                <a href="#accueil">
-                    Accueil
-                </a>
-            </span>
-        </div>   
-        <!-- Présentation -->
-        <div class="blocksMenu">
-            <span class="itemMenu">
-                <a href="#pres">
-                    Présentation
-                </a>
-            </span>
-        </div>   
-        <!-- Portfolio -->    
-        <div class="blocksMenu">
-            <span class="itemMenu">
-                <a href="#port">
-                    Portfolio
-                </a>
-            </span>
-        </div>
-        <!-- Compétences -->
-        <div class="blocksMenu">
-            <span class="itemMenu">
-                <a href="#range">
-                    Compétences 
-                </a>
-            </span>
-        </div>
-        <!-- Lien Contact -->
-        <div class="blocksMenu">
-            <span class="itemMenu">
-                <a href="#contact">
-                    Contact
-                </a>
-            </span>
-        </div>   
-                
-        <!-- Logo Contact -->
-        <div class="blocksMenu">
-            <div class="logoCercle">
-                <a href="#contact">
-                    <img src="/ressources/contact.svg" alt="logo contact">
-                </a>
-            </div>
-        </div>
+  <nav class="menu">
 
-    </nav>
-
-    <!-- Block Accueil -->
-
-    <section class="accueil" id="accueil">
-        <!-- Titre -->
-        <h1>Bienvenue</h1>
-
-        <p class="txt-animation"></p>
-        <a href="#" class="btn-acc btn-acc1">Portfolio</a>
-        <a href="#" class="btn-acc btn-acc2">Expériences</a>
-
-        <!-- Link Pro -->
-        <div class="medias">
-            <!-- Github -->
-            <a href="https://github.com/J-Banno" target="blank">
-                <div class="media media1">
-                    <img src="./ressources/github.svg" alt="githubIcon" class="icone-medias">
-                </div>
-            </a>
-            <!-- Linkedin -->
-            <a href="https://www.linkedin.com/in/jonathan-bannholtzer/?originalSubdomain=fr" target="blank">
-                <div class="media media2">
-                    <img src="./ressources/linkedin.svg" alt="linkedinIcon" class="icone-medias">
-                </div>
-            </a>
-             <!-- CV -->
-             <a class="linkCv" href="./ressources/Cv_Bannholtzer_ DeveloppeurWeb_JavaScript.pdf" download>
-                <div class="media media1">
-                    <p class="cv ">CV</p>
-                </div>
-            </a>
-        </div>
-
-        <a href="#pres">
-            <div class="btn-rond">
-                <img src="./ressources/arrowDown.svg" alt="logo fleche bas" class="logo-btn-rond-acc">
-            </div>
+    <!-- Photo de profil -->
+    <div class="blocksMenu">
+      <div class="portrait">
+        <img src="./ressources/profil.png" alt="portrait.img">
+      </div>
+    </div>
+    <!-- Accueil -->
+    <div class="blocksMenu">
+      <span class="itemMenu">
+        <a href="#accueil">
+          Accueil
         </a>
-    </section>
+      </span>
+    </div>
+    <!-- Présentation -->
+    <div class="blocksMenu">
+      <span class="itemMenu">
+        <a href="#pres">
+          Présentation
+        </a>
+      </span>
+    </div>
+    <!-- Portfolio -->
+    <div class="blocksMenu">
+      <span class="itemMenu">
+        <a href="#port">
+          Portfolio
+        </a>
+      </span>
+    </div>
+    <!-- Compétences -->
+    <div class="blocksMenu">
+      <span class="itemMenu">
+        <a href="#range">
+          Compétences
+        </a>
+      </span>
+    </div>
+    <!-- Lien Contact -->
+    <div class="blocksMenu">
+      <span class="itemMenu">
+        <a href="#contact">
+          Contact
+        </a>
+      </span>
+    </div>
 
-    <!-- Block Présentation -->
-    <section class="presentation" id="pres">
-        <h2 class="titrePres">Qui suis-je ?</h2>
-        <div class="containerPresentation">
-            <div class="fondForme"></div>
-            <div class="presGauche">
-                <h3><q>La seule manière de faire du bon travail, c’est d’aimer ce que vous faites.</q> Steve Jobs</h3>
-                <hr>
-                <p>Après avoir suivi une formation de développeur web full stack JavaScript, avec le <a class="bocal" href="https://lebocal.academy/" target="blank">Bocal Academy</a>  je suis monté en compétences grâce à de nombreux projets personnels. Ces réalisations m’ont permis d'être à l’aise aussi bien côté front end que back end.</p>
-                <br>
-                <p>Aujourd’hui je continu à développer des projets afin de me perfectionner, et rester attentif aux dernières évolutions du web et de ses technologies. C'est pour cela que je souhaite mettre à profit mes connaissances.</p>
-                <br>
-                <p>A l'avenir j’aimerais intégrer une équipe de passionné, une entreprise qui saura utiliser mes compétences et les améliorer pour réaliser des projets toujours plus ambitieux les uns des autres.</p>
-            </div>
-            <div class="presDroite">
-                <ul class="listePresentation">
-                    <li class="itemListe i1">
-                        <span class="chifreStyle">1.</span>
-                        <p class="txtListe">Développeur Full-Stack</p>
-                    </li>
-                    <li class="itemListe i2">
-                        <span class="chifreStyle">2.</span>
-                        <p class="txtListe">Site Responsive</p>
-                    </li>
-                    <li class="itemListe i3">
-                        <span class="chifreStyle">3.</span>
-                        <p class="txtListe">Optimisation UX</p>
-                    </li>
-                    <li class="itemListe i4">
-                        <span class="chifreStyle">4.</span>
-                        <p class="txtListe">Méthode Agile</p>
-                    </li>
-                   
-                </ul>
-            </div>
+    <!-- Logo Contact -->
+    <div class="blocksMenu">
+      <div class="logoCercle">
+        <a href="#contact">
+          <img src="/ressources/contact.svg" alt="logo contact">
+        </a>
+      </div>
+    </div>
+
+  </nav>
+
+  <!-- Block Accueil -->
+
+  <section class="accueil" id="accueil">
+    <!-- Titre -->
+    <h1>Bienvenue</h1>
+
+    <p class="txt-animation"></p>
+    <a href="#port" class="btn-acc btn-acc1">Portfolio</a>
+    <a href="#exp" class="btn-acc btn-acc2">Expériences</a>
+
+    <!-- Link Pro -->
+    <div class="medias">
+      <!-- Github -->
+      <a href="https://github.com/J-Banno" target="blank">
+        <div class="media media1">
+          <img src="./ressources/github.svg" alt="githubIcon" class="icone-medias" />
         </div>
-    </section>
-
-    <!-- Block Portfolio -->
-
-    <section class="portfolio" id="port">
-        <h2 class="titrePort">Mes Réalisations</h2>
-
-        <div class="contPortfolio">
-
-            <div class="item vague1">
-                <div class="contImgPort">
-                    <img src="./ressources/Maquette - 2.jpg" alt="Bocalflix">
-                </div>
-                <h3>The R'Guitar Shop</h3>
-                <p>Intégration d'une maquette. <br> Html/Css</p>
-                
-                <a href="https://github.com/J-Banno/TheRGuitarShop" target="blank" class="btnProjets">En savoir plus</a>
-            </div>
-
-            <div class="item vague1">
-                <div class="contImgPort">
-                    <img src="./ressources/titi.png" alt="tamagotchi">
-                </div>
-                <h3>Titi le ouistiti</h3>
-                <p>Réalisation d'un tamagotchi.<br>JavaScript Vanilla. </p>
-                <a href="https://github.com/J-Banno/Tamagotchi" target="blank" class="btnProjets">En savoir plus</a>
-            </div>
-
-            <div class="item vague1">
-                <div class="contImgPort">
-                    <img src="./ressources/bocalflix.jpeg" alt="Bocalflix">
-                </div>
-                <h3>Bocalflix</h3>
-                <p>Plateforme de streaming, en full-stack MEARN.</p>
-                <a target="blank"  href="https://github.com/J-Banno/Bocalflix_Back" class="btnProjets">En savoir plus</a>
-            </div>
-
-            <div class="item vague2">
-                <div class="contImgPort">
-                    <img src="./ressources/blog.png" alt="Bocalflix">
-                </div>
-                <h3>Blog</h3>
-                <p>Réalisation d'un blog, en React Js</p>
-                <a href="https://github.com/J-Banno/Blog" target="blank" class="btnProjets">En savoir plus</a>
-            </div>
-
-            <div class="item vague2">
-                <div class="contImgPort">
-                    <img src="./ressources/weather.png" alt="Météo">
-                </div>
-                <h3>Application mobile Météo</h3>
-                <p>React native, utilisation d'une API de Géolocalisation. </p>
-                <a href="https://snack.expo.io/@john-banno/06978f" target="blank" class="btnProjets">En savoir plus</a>
-            </div>
-
-            <div class="item vague2">
-                <div class="contImgPort">
-                    <img src="./ressources/Cocktails.png" alt="Appli">
-                </div>
-                <h3>Application mobile de cocktails</h3>
-                <p>React native, API recette de boissons. </p>
-                <a href="https://snack.expo.io/@john-banno/cocktails" target="blank" class="btnProjets">En savoir plus</a>
-            </div>
+      </a>
+      <!-- Linkedin -->
+      <a href="https://www.linkedin.com/in/jonathan-bannholtzer/?originalSubdomain=fr" target="blank">
+        <div class="media media2">
+          <img src="./ressources/linkedin.svg" alt="linkedinIcon" class="icone-medias" />
         </div>
-    </section>
-
-    <!-- Block Compétences -->
-
-    <section class="sectionRange" id="range">
-        <h2 class="titreExp">Mes compétences</h2>
-
-        <div class="grilleSkill">
-
-            <div class="rangeCont">
-                <p class="labelSkill">Html/Css</p>
-                <p class="numberSkill">85%</p>
-                <div class="barreSkill b1"></div>   
-                <div class="barreGrise"></div>
-            </div>
-            <div class="rangeCont">
-                <p class="labelSkill">JavaScript</p>
-                <p class="numberSkill">75%</p>
-                <div class="barreSkill b2"></div>   
-                <div class="barreGrise"></div>
-            </div>
-            <div class="rangeCont">
-                <p class="labelSkill">NodeJs</p>
-                <p class="numberSkill">70%</p>
-                <div class="barreSkill b3"></div>   
-                <div class="barreGrise"></div>
-            </div>
-            <div class="rangeCont">
-                <p class="labelSkill">MongoDB</p>
-                <p class="numberSkill">70%</p>
-                <div class="barreSkill b4"></div>   
-                <div class="barreGrise"></div>
-            </div>
-            <div class="rangeCont">
-                <p class="labelSkill">ReactJs</p>
-                <p class="numberSkill">80%</p>
-                <div class="barreSkill b5"></div>   
-                <div class="barreGrise"></div>
-            </div>
-            <div class="rangeCont">
-                <p class="labelSkill">Php</p>
-                <p class="numberSkill">45%</p>
-                <div class="barreSkill b6"></div>   
-                <div class="barreGrise"></div>
-            </div>
-            <div class="rangeCont">
-                <p class="labelSkill">Git</p>
-                <p class="numberSkill">80%</p>
-                <div class="barreSkill b7"></div>   
-                <div class="barreGrise"></div>
-            </div>
-            <div class="rangeCont">
-                <p class="labelSkill">Scrum</p>
-                <p class="numberSkill">80%</p>
-                <div class="barreSkill b8"></div>   
-                <div class="barreGrise"></div>
-            </div>
-
-
+      </a>
+      <!-- CV -->
+      <a class="linkCv" href="./ressources/Cv_Bannholtzer_ DeveloppeurWeb_JavaScript.pdf" download>
+        <div class="media media1">
+          <p class="cv">CV</p>
         </div>
-    </section>
+      </a>
+    </div>
+
+    <a href="#pres">
+      <div class="btn-rond">
+        <img src="./ressources/arrowDown.svg" alt="logo fleche bas" class="logo-btn-rond-acc" />
+      </div>
+    </a>
+  </section>
+
+  <!-- Block Présentation -->
+  <section class="presentation" id="pres">
+    <h2 class="titrePres">Qui suis-je ?</h2>
+    <div class="containerPresentation">
+      <div class="fondForme"></div>
+      <div class="presGauche">
+        <h3>
+          <q>La seule manière de faire du bon travail, c’est d’aimer ce que
+            vous faites.</q>
+          Steve Jobs
+        </h3>
+        <hr />
+        <p>
+          Après avoir suivi une formation de développeur web full stack
+          JavaScript, avec le
+          <a class="bocal" href="https://lebocal.academy/" target="blank">Bocal Academy</a>
+          je suis monté en compétences grâce à de nombreux projets personnels.
+          Ces réalisations m’ont permis d'être à l’aise aussi bien côté front
+          end que back end.
+        </p>
+        <br />
+        <p>
+          Aujourd’hui je continu à développer des projets afin de me
+          perfectionner, et rester attentif aux dernières évolutions du web et
+          de ses technologies. C'est pour cela que je souhaite mettre à profit
+          mes connaissances.
+        </p>
+        <br />
+        <p>
+          A l'avenir j’aimerais intégrer une équipe de passionné, une
+          entreprise qui saura utiliser mes compétences et les améliorer pour
+          réaliser des projets toujours plus ambitieux les uns des autres.
+        </p>
+      </div>
+      <div class="presDroite">
+        <ul class="listePresentation">
+          <li class="itemListe i1">
+            <span class="chifreStyle">1.</span>
+            <p class="txtListe">Développeur Full-Stack</p>
+          </li>
+          <li class="itemListe i2">
+            <span class="chifreStyle">2.</span>
+            <p class="txtListe">Site Responsive</p>
+          </li>
+          <li class="itemListe i3">
+            <span class="chifreStyle">3.</span>
+            <p class="txtListe">Optimisation UX</p>
+          </li>
+          <li class="itemListe i4">
+            <span class="chifreStyle">4.</span>
+            <p class="txtListe">Méthode Agile</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Block Portfolio -->
+
+  <section class="portfolio" id="port">
+    <h2 class="titrePort">Mes Réalisations</h2>
+
+    <div class="contPortfolio">
+      <div class="item vague1">
+        <div class="contImgPort">
+          <img src="./ressources/Maquette - 2.jpg" alt="Bocalflix" />
+        </div>
+        <h3>The R'Guitar Shop</h3>
+        <p>
+          Intégration d'une maquette. <br />
+          Html/Css
+        </p>
+
+        <a href="https://github.com/J-Banno/TheRGuitarShop" target="blank" class="btnProjets">En savoir plus</a>
+      </div>
+
+      <div class="item vague1">
+        <div class="contImgPort">
+          <img src="./ressources/titi.png" alt="tamagotchi" />
+        </div>
+        <h3>Titi le ouistiti</h3>
+        <p>Réalisation d'un tamagotchi.<br />JavaScript Vanilla.</p>
+        <a href="https://github.com/J-Banno/Tamagotchi" target="blank" class="btnProjets">En savoir plus</a>
+      </div>
+
+      <div class="item vague1">
+        <div class="contImgPort">
+          <img src="./ressources/bocalflix.jpeg" alt="Bocalflix" />
+        </div>
+        <h3>Bocalflix</h3>
+        <p>Plateforme de streaming, en full-stack MEARN.</p>
+        <a target="blank" href="https://github.com/J-Banno/Bocalflix_Back" class="btnProjets">En savoir plus</a>
+      </div>
+
+      <div class="item vague2">
+        <div class="contImgPort">
+          <img src="./ressources/blog.png" alt="Bocalflix" />
+        </div>
+        <h3>Blog</h3>
+        <p>Réalisation d'un blog, en React Js</p>
+        <a href="https://github.com/J-Banno/Blog" target="blank" class="btnProjets">En savoir plus</a>
+      </div>
+
+      <div class="item vague2">
+        <div class="contImgPort">
+          <img src="./ressources/weather.png" alt="Météo" />
+        </div>
+        <h3>Application mobile Météo</h3>
+        <p>React native, utilisation d'une API de Géolocalisation.</p>
+        <a href="https://snack.expo.io/@john-banno/06978f" target="blank" class="btnProjets">En savoir plus</a>
+      </div>
+
+      <div class="item vague2">
+        <div class="contImgPort">
+          <img src="./ressources/Cocktails.png" alt="Appli" />
+        </div>
+        <h3>Application mobile de cocktails</h3>
+        <p>React native, API recette de boissons.</p>
+        <a href="https://snack.expo.io/@john-banno/cocktails" target="blank" class="btnProjets">En savoir plus</a>
+      </div>
+  </section>
+
+  <!-- Block Compétences -->
+
+  <section class="sectionRange" id="range">
+    <h2 class="titreExp">Mes compétences</h2>
+
+    <div class="grilleSkill">
+
+      <div class="rangeCont">
+        <p class="labelSkill">Html/Css</p>
+        <p class="numberSkill">85%</p>
+        <div class="barreSkill b1"></div>
+        <div class="barreGrise"></div>
+      </div>
+      <div class="rangeCont">
+        <p class="labelSkill">JavaScript</p>
+        <p class="numberSkill">75%</p>
+        <div class="barreSkill b2"></div>
+        <div class="barreGrise"></div>
+      </div>
+      <div class="rangeCont">
+        <p class="labelSkill">NodeJs</p>
+        <p class="numberSkill">70%</p>
+        <div class="barreSkill b3"></div>
+        <div class="barreGrise"></div>
+      </div>
+      <div class="rangeCont">
+        <p class="labelSkill">MongoDB</p>
+        <p class="numberSkill">70%</p>
+        <div class="barreSkill b4"></div>
+        <div class="barreGrise"></div>
+      </div>
+      <div class="rangeCont">
+        <p class="labelSkill">ReactJs</p>
+        <p class="numberSkill">80%</p>
+        <div class="barreSkill b5"></div>
+        <div class="barreGrise"></div>
+      </div>
+      <div class="rangeCont">
+        <p class="labelSkill">Php</p>
+        <p class="numberSkill">45%</p>
+        <div class="barreSkill b6"></div>
+        <div class="barreGrise"></div>
+      </div>
+      <div class="rangeCont">
+        <p class="labelSkill">Git</p>
+        <p class="numberSkill">80%</p>
+        <div class="barreSkill b7"></div>
+        <div class="barreGrise"></div>
+      </div>
+      <div class="rangeCont">
+        <p class="labelSkill">Scrum</p>
+        <p class="numberSkill">80%</p>
+        <div class="barreSkill b8"></div>
+        <div class="barreGrise"></div>
+      </div>
+    </div>
+  </section>
 
     <!-- Block Contact -->
-    <section class="blockContact" id ="contact">
-        <h2 class="titrePres">Me contacter </h2>
-        <div class="contContact">
-            <p class="monEmail">bannholtzer.j@gmail.com</p>
-            <p class="numTel">06 28 49 17 65</p>
-        </div>
-    </section>
-   
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script> 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
-    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <script src="app.js"></script>
+  <section class="blockContact" id="contact">
+    <h2 class="titrePres">Me contacter </h2>
+    <div class="contContact">
+      <p class="monEmail">bannholtzer.j@gmail.com</p>
+      <p class="numTel">06 28 49 17 65</p>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="app.js"></script>
 </body>
+
 </html>
